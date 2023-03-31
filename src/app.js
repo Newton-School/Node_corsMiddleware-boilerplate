@@ -8,7 +8,7 @@ app.use(express.json());
 
 // GET endpointfor sending the result
 app.get("/", function (req, res, next) {
-  res.send(" Cors middleware working successfully");
+  res.send("Cors middleware working successfully");
 });
 
 module.exports = app;
